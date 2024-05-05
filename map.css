@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000; /* Ensures the entire page has a black background */
+    text-align: center;
+}
+
+main {
+    padding-top: 20px; /* Adds some space above the map */
+    min-height: 100vh; /* Uses 100% of the viewport height ensuring full coverage */
+    color: #fff; /* Sets the text color to white for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    background-color: #000; /* Ensures the background of the map area is black */
+}
+
+section {
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    background-color: #333;
+}
